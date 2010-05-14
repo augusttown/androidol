@@ -1,0 +1,28 @@
+/*
+ * The Androidol is a little mapping application library based on Android mobile platform.  
+ *
+ * Author @ Yingqi Tang
+ *  
+ * This library is a derived work based on following free open source project:
+ *      
+ *	   1. JTS Topology Suite (JTS) http://www.vividsolutions.com/jts/jtshome.htm;
+ *	   2. Java Map Projection Library Java Map Projection Library;
+ *	   3. OpenLayers http://openlayers.org/;
+ *	   4. osmdroid http://code.google.com/p/osmdroid/;
+ *	   
+ * Along with the distribution of this library, you can find a copy of license text for each of those project it derives from
+ * 
+ * This application/framework is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * For more information, contact:
+ *
+ *     augusttown@gmail.com
+ */

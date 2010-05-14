@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>     
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dataframe"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<com.androidol.Map xmlns:android="http://schemas.android.com/apk/res/android"	
+	    android:id="@+id/map"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	    <!-- base layers -->
+ 		<!--  
+	    <com.androidol.layer.osm.Mapnik xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/mapnik_baselayer"    	
+	    	androidol:name="mapnik_baselayer"
+	    	androidol:isBaseLayer="TRUE"
+	    	androidol:isOfflineMode="FALSE"
+	    	androidol:isSingleTile="FALSE" 
+	    	androidol:opacity="1.0"/>
+		-->
+ 		  
+	    <com.androidol.layer.AgsTiled xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/agstiled_imagery_baselayer"    	
+	    	androidol:name="agstiled_imagery_baselayer"
+	    	androidol:url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/"
+	    	androidol:isBaseLayer="TRUE"
+	    	androidol:isOfflineMode="FALSE"
+	    	androidol:opacity="1.0"/>
+	    	   	    
+	    <!--
+	    <com.androidol.layer.AgsTiled xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/agstiled_physical_baselayer"    	
+	    	androidol:name="agstiled_physical_baselayer"
+	    	androidol:url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/"
+	    	androidol:isBaseLayer="TRUE"
+	    	androidol:isOfflineMode="FALSE"
+	    	androidol:opacity="1.0"/>
+	    -->
+  		<!--  
+	    <com.androidol.layer.WMS xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/wms_baselayer"    	
+	    	androidol:name="wms_baselayer"
+	    	androidol:url="http://sampleserver1.arcgisonline.com/arcgis/services/Specialty/ESRI_StatesCitiesRivers_USA/MapServer/WMSServer"
+	    	androidol:isBaseLayer="TRUE"	 
+	    	androidol:isOfflineMode="FALSE"  
+	    	androidol:isSingleTile="TRUE" 	
+	    	androidol:opacity="1.0"/>
+		-->
+	    <!-- overlays -->      	 	    
+ 		<!--  
+	    <com.androidol.layer.osm.Mapnik xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/mapnik_overlay"    	
+	    	androidol:name="mapnik_overlay"
+	    	androidol:isBaseLayer="FALSE"
+	    	androidol:isSingleTile="FALSE"
+	    	androidol:opacity="0.64"/>
+	    -->
+	    <!-- 
+	    <com.androidol.layer.osm.Osmarender xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/osmarender_overlay"    	
+	    	androidol:name="osmarender_overlay"
+	    	androidol:isBaseLayer="FALSE"
+	    	androidol:opacity="0.64"/>	    
+	 	--> 
+  		<!--  
+	 	<com.androidol.layer.WMS xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/wms_overlay"    	
+	    	androidol:name="wms_overlay"
+	    	androidol:url="http://sampleserver1.arcgisonline.com/arcgis/services/Specialty/ESRI_StatesCitiesRivers_USA/MapServer/WMSServer"
+	    	androidol:isBaseLayer="FALSE"	 
+	    	androidol:isOfflineMode="FALSE" 
+	    	androidol:isSingleTile="FALSE"
+	    	androidol:layers="0"   	
+	    	androidol:opacity="0.64"/>
+		-->
+		<!--  
+	 	<com.androidol.layer.AgsDynamic xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/agsdynamic_overlay"    	
+	    	androidol:name="agsdynamic_overlay"
+	    	androidol:url="http://sampleserver1.arcgisonline.com/arcgis/rest/services/Specialty/ESRI_StatesCitiesRivers_USA/MapServer/Export"
+	    	androidol:isBaseLayer="FALSE"	 
+	    	androidol:isOfflineMode="FALSE" 
+	    	androidol:isSingleTile="TRUE"
+	    	androidol:layers="0"   	
+	    	androidol:opacity="0.64"/>
+		-->
+	  	<!--   
+	    <com.androidol.layer.TMS xmlns:androidol="http://www.esri.com/androidol"
+	    	android:id="@+id/usgs_drg_overlay"    	
+	    	androidol:name="usgs_drg_overlay"
+	    	androidol:url="http://zeon/tms/o34117a5"
+	    	androidol:isBaseLayer="FALSE"
+	    	androidol:isOfflineMode="TRUE"
+	    	androidol:isSingleTile="TRUE"
+	    	androidol:layers="0" 
+	    	androidol:opacity="0.64"/>
+	    -->
+	    
+	</com.androidol.Map>
+	<!-- controls -->
+	<ZoomControls xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/zoomcontrols"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>	
+    		    
+</RelativeLayout>

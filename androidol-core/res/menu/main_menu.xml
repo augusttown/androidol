@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:id="@+id/mapmode_menuitem"
+          android:title="Map Mode"
+          android:icon="@drawable/mapmode_menuitem_16"/>
+    <item android:id="@+id/addOverlay_menuitem"
+          android:title="Add Overlay"
+          android:icon="@drawable/addoverlay_menuitem_16"/>
+    <item android:id="@+id/mylocation_menuitem"
+          android:title="My Location"
+          android:icon="@drawable/mylocation_menuitem_16"/>
+    <item android:id="@+id/empty1_menuitem"
+          android:title="Empty1"
+          android:icon="@drawable/bullet_blue_16"/>
+    <item android:id="@+id/empty2_menuitem"
+          android:title="Empty2"
+          android:icon="@drawable/bullet_blue_16"/>
+    <item android:id="@+id/empty3_menuitem"
+          android:title="Empty3"
+          android:icon="@drawable/bullet_blue_16"/>
+    <item android:id="@+id/empty4_menuitem"
+          android:title="Empty4"
+          android:icon="@drawable/bullet_blue_16"/>
+          
+</menu>

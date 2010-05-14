@@ -1,0 +1,3 @@
+Based on project's home page (http://code.google.com/p/osmdroid/) it's under GNU Lesser General Public License (http://www.gnu.org/licenses/lgpl.html)
+
+

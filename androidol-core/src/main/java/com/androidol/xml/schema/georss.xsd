@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="generator" content="MediaWiki 1.13.0" />
+		<meta name="keywords" content="xml/1.1/georss.xsd" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="GeoRSS (en)" />
+		<link rel="alternate" type="application/rss+xml" title="GeoRSS RSS Feed" href="http://www.georss.org/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="GeoRSS Atom Feed" href="http://www.georss.org/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>xml/1.1/georss.xsd - GeoRSS</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/skins/common/shared.css?164";
+			@import "/skins/monobook/main.css?164";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?164" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?164";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?164";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?164";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?164";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?164"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "";
+var wgScript = "/index.php";
+var wgVariantArticlePath = false;
+var wgActionPaths = [];
+var wgServer = "http://www.georss.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "xml/1.1/georss.xsd";
+var wgTitle = "xml/1.1/georss.xsd";
+var wgAction = "view";
+var wgArticleId = "31";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "86";
+var wgVersion = "1.13.0";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?164"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/skins/common/ajax.js?164"></script>
+<style type="text/css">/*<![CDATA[*/
+.source-xml {line-height: normal;}
+.source-xml li, .source-xml pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for xml
+ * CSS class: source-xml, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.source-xml .de1, .source-xml .de2 {font-family: monospace; font-weight: normal; font-style: normal; margin:0; padding:0; background:inherit;}
+.source-xml  {font-family: monospace;}
+.source-xml .imp {font-weight: bold; color: red;}
+.source-xml li, .source-xml li.li1 {font-weight: normal;}
+.source-xml li.li2 {font-weight: bold;}
+.source-xml .co1 {color: #808080; font-style: italic;}
+.source-xml .co2 {color: #404040; font-style: italic;}
+.source-xml .co3 {color: #000000;}
+.source-xml .co4 {color: #400000; font-weight: bold;}
+.source-xml .es0 {color: #000099; font-weight: bold;}
+.source-xml .br0 {color: #66cc66;}
+.source-xml .sy0 {color: #66cc66;}
+.source-xml .st0 {color: #ff0000;}
+.source-xml .nu0 {color: #cc66cc;}
+.source-xml .re0 {color: #000066;}
+.source-xml .re1 {color: #000000; font-weight: bold;}
+.source-xml .re2 {color: #000000; font-weight: bold;}
+.source-xml .ln-xtra, .source-xml li.ln-xtra, .source-xml div.ln-xtra {background-color: #ffc;}
+.source-xml span.xtra { display:block; }
+
+/*]]>*/
+</style>
+<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Geshi.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+/*]]>*/
+</style>		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+	</head>
+<body class="mediawiki ns-0 ltr page-xml_1_1_georss_xsd">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">xml/1.1/georss.xsd</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From GeoRSS</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<div dir="ltr" style="text-align: left;"><div class="source-xml" style="font-family: monospace;"><pre><span class="re1">&lt;?xml</span> <span class="re0">version</span>=<span class="st0">&quot;1.0&quot;</span> <span class="re0">encoding</span>=<span class="st0">&quot;UTF-8&quot;</span><span class="re2">?&gt;</span>
+<span class="re1">&lt;xs:schema</span> <span class="re0">xmlns:xs</span>=<span class="st0">&quot;http://www.w3.org/2001/XMLSchema&quot;</span> <span class="re0">xmlns:georss</span>=<span class="st0">&quot;http://www.georss.org/georss/10&quot;</span> <span class="re0">xmlns:gml</span>=<span class="st0">&quot;http://www.opengis.net/gml&quot;</span> <span class="re0">targetNamespace</span>=<span class="st0">&quot;http://www.georss.org/georss/10&quot;</span> <span class="re0">elementFormDefault</span>=<span class="st0">&quot;qualified&quot;</span> <span class="re0">version</span>=<span class="st0">&quot;1.0&quot;</span><span class="re2">&gt;</span>
+   <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">GML application schema for the Simple and GML serializations of GeoRSS v. 1.1</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">note that while this schema is a valid derivative of GML, it does not constitute a GML feature schema and cannot be used to encode explicit GML features because it does not derive from gml:AbstractFeature</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">makes use of the gmlgeorss v. 1.1 profile of GML 3.1.1</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Generated by Joshua Lieberman - December 2006</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;xs:import</span> <span class="re0">namespace</span>=<span class="st0">&quot;http://www.opengis.net/gml&quot;</span> <span class="re0">schemaLocation</span>=<span class="st0">&quot;gmlgeorss11.xsd&quot;</span><span class="re2">/&gt;</span>
+	<span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;_featureProperty&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:abstractFeaturePropertyType&quot;</span> <span class="re0">abstract</span>=<span class="st0">&quot;true&quot;</span> <span class="re0">substitutionGroup</span>=<span class="st0">&quot;gml:_Object&quot;</span><span class="re2">&gt;</span>
+	  <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Global element which acts as the head of a substitution group that may include any element which is a GeoRSS feature property</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+	<span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+	<span class="re1">&lt;xs:complexType</span> <span class="re0">name</span>=<span class="st0">&quot;abstractFeaturePropertyType&quot;</span> <span class="re0">abstract</span>=<span class="st0">&quot;true&quot;</span><span class="re2">&gt;</span>    
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Abstract type of georss feature properties</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+	<span class="re1">&lt;/xs:complexType<span class="re2">&gt;</span></span>	
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+      <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;where&quot;</span> type =<span class="st0">&quot;georss:whereType&quot;</span> <span class="re0">substitutionGroup</span>=<span class="st0">&quot;georss:_featureProperty&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Geometry property element of a GeoRSS GML instance</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+       <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:complexType</span> <span class="re0">name</span>=<span class="st0">&quot;whereType&quot;</span><span class="re2">&gt;</span>
+       <span class="re1">&lt;xs:complexContent<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;xs:extension</span> <span class="re0">base</span>=<span class="st0">&quot;georss:abstractFeaturePropertyType&quot;</span><span class="re2">&gt;</span> 
+           <span class="re1">&lt;xs:choice<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:element</span> <span class="re0">ref</span>=<span class="st0">&quot;gml:Point&quot;</span><span class="re2">/&gt;</span>
+            <span class="re1">&lt;xs:element</span> <span class="re0">ref</span>=<span class="st0">&quot;gml:LineString&quot;</span><span class="re2">/&gt;</span>
+            <span class="re1">&lt;xs:element</span> <span class="re0">ref</span>=<span class="st0">&quot;gml:Polygon&quot;</span><span class="re2">/&gt;</span>
+            <span class="re1">&lt;xs:element</span> <span class="re0">ref</span>=<span class="st0">&quot;gml:Envelope&quot;</span><span class="re2">/&gt;</span>
+            <span class="re1">&lt;xs:element</span> <span class="re0">ref</span>=<span class="st0">&quot;gml:CircleByCenterPoint&quot;</span><span class="re2">/&gt;</span>
+           <span class="re1">&lt;/xs:choice<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:extension<span class="re2">&gt;</span></span>
+       <span class="re1">&lt;/xs:complexContent<span class="re2">&gt;</span></span>
+     <span class="re1">&lt;/xs:complexType<span class="re2">&gt;</span></span>
+&nbsp;
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+	<span class="co1">&lt;!-- GeoRSS Simple Elements --&gt;</span>
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;point&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Point property element containing a pair of coordinates representing latitude then longitude in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">This GeoRSS Simple element maps completely onto the where + gml:Point combination of GeoRSS GML</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">The content of this element must be one pair of coordinates in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;line&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Line property element containing a list of pairs of coordinates representing latitude then longitude in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">This GeoRSS Simple element maps completely onto the where + gml:LineString combination of GeoRSS GML</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">The content of this element must be two or more pairs of coordinates in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;polygon&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Closed ring property element containing a list of pairs of coordinates (first pair and last pair identical) representing latitude then longitude in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">This GeoRSS Simple element maps completely onto the where + gml:Polygon combination of GeoRSS GML</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">The content of this element must be three or more pairs of coordinates in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;box&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Rectangular envelope property element containing two pairs of coordinates (lower left envelope corner, upper right envelope corner) representing latitude then longitude in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">This GeoRSS Simple element maps completely onto the where + gml:Envelope combination of GeoRSS GML</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">The content of this element must be two pairs of coordinates in the WGS84 coordinate reference system</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+    <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;circle&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;georss:doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Circle  property element containing three coordinates (centerpoint latitude, centerpoint longitude, circle radius) with latitude then longitude in the WGS84 coordinate reference system and radius in meters</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">This GeoRSS Simple element maps completely onto the where + gml:CircleByCenterPoint combination of GeoRSS GML</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+          <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">The content of this element must be one pair of coordinates in the WGS84 coordinate reference system followed by one coordinate in meters</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+    <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>
+&nbsp;
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+	<span class="co1">&lt;!-- Additional expressive elements for both Simple and GML      --&gt;</span>
+	<span class="co1">&lt;!-- =========================================================== --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;featureName&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:QName&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the name or identifier of the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;featureTypeTag&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:QName&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the type of the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;relationshipTag&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:QName&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the relationship of the accompanying geometric property to the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;elev&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:double&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the elevation in meters such as obtained by GPS of the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;floor&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:integer&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the elevation in building floors of the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+   <span class="re1">&lt;xs:element</span> <span class="re0">name</span>=<span class="st0">&quot;radius&quot;</span> <span class="re0">type</span>=<span class="st0">&quot;xs:double&quot;</span><span class="re2">&gt;</span>
+          <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+            <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">Additional georss property indicating the radius or buffer about the accompanying geometric property which represents the referenced geographic entity.</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+   <span class="re1">&lt;/xs:element<span class="re2">&gt;</span></span>  
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+  <span class="re1">&lt;xs:simpleType</span> <span class="re0">name</span>=<span class="st0">&quot;doubleList&quot;</span><span class="re2">&gt;</span>
+      <span class="re1">&lt;xs:annotation<span class="re2">&gt;</span></span>
+         <span class="re1">&lt;xs:documentation<span class="re2">&gt;</span></span><span class="co3">XML List based on XML Schema double type, identical to gml:doubleList.  An element of this type contains a space-separated list of double values</span><span class="re1">&lt;/xs:documentation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;/xs:annotation<span class="re2">&gt;</span></span>
+      <span class="re1">&lt;xs:list</span> <span class="re0">itemType</span>=<span class="st0">&quot;xs:double&quot;</span><span class="re2">/&gt;</span>
+   <span class="re1">&lt;/xs:simpleType<span class="re2">&gt;</span></span>
+&nbsp;
+       <span class="co1">&lt;!-- ================================================= --&gt;</span>
+&nbsp;
+<span class="re1">&lt;/xs:schema<span class="re2">&gt;</span></span></pre></div></div>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 4/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key georss-wiki_:pcache:idhash:31-0!1!0!!en!2!edit=0 and timestamp 20090917033201 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.georss.org/xml/1.1/georss.xsd">http://www.georss.org/xml/1.1/georss.xsd</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/xml/1.1/georss.xsd" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk"><a href="/Talk:xml/1.1/georss.xsd" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=xml/1.1/georss.xsd&amp;action=edit" title="This page is protected.&#10;You can view its source. [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=xml/1.1/georss.xsd&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=xml/1.1/georss.xsd" title="You are encouraged to log in, it is not mandatory however. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/images/georss_logo.png);" href="/Main_Page" title="Visit the Main Page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-Specification'>
+		<h5>Specification</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-Encodings"><a href="/Encodings">Encodings</a></li>
+				<li id="n-Usage"><a href="/Usage">Usage</a></li>
+				<li id="n-Versions"><a href="/Versions">Versions</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Development'>
+		<h5>Development</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-Roadmap"><a href="/Roadmap">Roadmap</a></li>
+				<li id="n-Proposals"><a href="/Proposals">Proposals</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Participate_.26_Syndicate'>
+		<h5>Participate & Syndicate</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-recentchanges"><a href="/Special:RecentChanges" title="The list of recent changes in the wiki. [r]" accesskey="r">Recent changes</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search GeoRSS [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/xml/1.1/georss.xsd" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/xml/1.1/georss.xsd" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-upload"><a href="/Special:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=xml/1.1/georss.xsd&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=xml/1.1/georss.xsd&amp;oldid=86" title="Permanent link to this version of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified on 7 June 2009, at 12:27.</li>
+				<li id="viewcount">This page has been accessed 2,430 times.</li>
+				<li id="privacy"><a href="/GeoRSS:Privacy_policy" title="GeoRSS:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/GeoRSS:About" title="GeoRSS:About">About GeoRSS</a></li>
+				<li id="disclaimer"><a href="/GeoRSS:General_disclaimer" title="GeoRSS:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.231 secs. --></body></html>
