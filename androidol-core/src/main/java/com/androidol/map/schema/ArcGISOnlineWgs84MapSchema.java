@@ -1,10 +1,13 @@
-package com.androidol.tile.schema;
+package com.androidol.map.schema;
 
 import com.androidol.basetypes.Size;
+import com.androidol.proj4j.map.proj.ProjectionFactory;
+import com.androidol.projection.Projection;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Envelope;
+import com.vividsolutions.jts.geom.Point;
 
-public class OpenStreetMapTileSchema implements TileSchema {
+public class ArcGISOnlineWgs84MapSchema implements MapSchema {
 	
 	public static double[] SCALES = {
 		5.916590302988535E8,
@@ -25,63 +28,49 @@ public class OpenStreetMapTileSchema implements TileSchema {
 		18056.000680507004,
 		9028.000340253502,
 		4514.000170126751,
-		2257.0000850633755,
+		2257.0000850633755,		
 	};
 	
 	public static double[] RESOLUTIONS = {
-		156543.0339,
-		78271.51695,
-		39135.758475,
-		19567.8792375,
-		9783.93961875,
-		4891.969809375,
-		2445.9849046875,
-		1222.99245234375,
-		611.496226171875,
-		305.7481130859375,
-		152.87405654296876,
-		76.43702827148438,
-		38.21851413574219,
-		19.109257067871095,
-		9.554628533935547,
-		4.777314266967774,
-		2.388657133483887,
-		1.1943285667419434,
-		0.5971642833709717,
+		1.40625,
+		0.703125,
+		0.3515625,
+		0.17578125,
+		0.087890625,
+		0.0439453125,
+		0.02197265625,
+		0.010986328125,
+		0.0054931640625,
+		0.00274658203125,
+		0.001373291015625,
+		0.0006866455078125,
+		0.00034332275390625,
+		0.000171661376953125,
+		8.58306884765625E-05,
+		4.29153442382813E-05,
+		2.14576721191407E-05,
+		1.07288360595703E-05,
+		5.36441802978515E-06
 	};
 	
-	public static int 			DPI 					= 96;	
 	public static int 			NUM_ZOOM_LEVELS 		= 19;
 	public static int 			MAX_ZOOM_LEVEL 			= 18;
-	public static int 			MIN_ZOOM_LEVEL	 		= 1;
+	public static int 			MIN_ZOOM_LEVEL	 		= 0;
 	public static double		MAX_RESOLUTION			= RESOLUTIONS[0];
 	public static double		MIN_RESOLUTION			= RESOLUTIONS[NUM_ZOOM_LEVELS-1];
 	public static double		MAX_SCALE				= SCALES[0];
 	public static double		MIN_SCALE				= SCALES[NUM_ZOOM_LEVELS-1];
-	public static String		PROJECTION				= "EPSG:4326";
+	
+	public static int 			DPI 					= 96;
+	public static String		PROJECTION				= "epsg:4326"; // mercator auxiliary??
 	public static String		UNITS					= "meters";
 	
-	public static Coordinate	TILE_ORIGIN				= new Coordinate(-20037508.3392, -20037508.3392);	
-	public static int			DEFAULT_TILE_WIDTH		= 256;
-	public static int			DEFAULT_TILE_HEIGHT		= 256;
-	public static Size			DEFAULT_TILE_SIZE		= new Size(DEFAULT_TILE_WIDTH, DEFAULT_TILE_HEIGHT);
-	
-	public static Envelope		DEFAULT_MAX_EXTENT		= new Envelope(-20037508.3392, 20037508.3392, -20037508.3392, 20037508.3392);
+	public static Envelope		DEFAULT_MAX_EXTENT		= new Envelope(-180.0, 180.0, -90.0, 90.0);
 	public static Envelope		DEFAULT_MIN_EXTENT		= null;
 	public static Coordinate	DEFAULT_CENTER			= new Coordinate(0.0, 0.0);
-	
-	public static String 		TRANSPARENT_TILE_URI 	= "R.drawable.transparent";
-	public static String 		MISSING_TILE_URI 		= "R.drawable.missing";
-	
-	@Override
-	public int getDefaultTileHeight() {
-		return DEFAULT_TILE_HEIGHT;
-	}
-	
-	@Override
-	public int getDefaultTileWidth() {
-		return DEFAULT_TILE_WIDTH;
-	}
+	public static int			DEFAULT_ZOOM_LEVEL		= 0;
+	public static double		DEFAULT_RESOLUTION		= RESOLUTIONS[DEFAULT_ZOOM_LEVEL];
+	public static double		DEFAULT_SCALE			= SCALES[DEFAULT_ZOOM_LEVEL];
 	
 	@Override
 	public int getDpi() {		
@@ -119,11 +108,6 @@ public class OpenStreetMapTileSchema implements TileSchema {
 	}
 	
 	@Override
-	public String getMissingTileUri() {		
-		return MISSING_TILE_URI;
-	}
-	
-	@Override
 	public int getNumZoomLevels() {		
 		return NUM_ZOOM_LEVELS;
 	}
@@ -144,16 +128,6 @@ public class OpenStreetMapTileSchema implements TileSchema {
 	}
 	
 	@Override
-	public Coordinate getTileOrigin() {		
-		return TILE_ORIGIN;
-	}
-	
-	@Override
-	public String getTransparentTileUri() {
-		return TRANSPARENT_TILE_URI;
-	}
-	
-	@Override
 	public String getUnits() {	
 		return UNITS;
 	}
@@ -167,14 +141,26 @@ public class OpenStreetMapTileSchema implements TileSchema {
 	public Envelope getDefaultMinExtent() {		
 		return DEFAULT_MIN_EXTENT;
 	}
-
-	@Override
-	public Size getDefaultTileSize() {		
-		return DEFAULT_TILE_SIZE;
-	}
 	
 	@Override
 	public Coordinate getDefaultCenter() {		
-		return DEFAULT_CENTER;
+		//return DEFAULT_CENTER;						
+		// Rancho Cucamonga    	
+    	return new Coordinate(-117.5931084, 34.1063989);
+	}
+	
+	@Override
+	public int getDefaultZoomLevel() {
+		return DEFAULT_ZOOM_LEVEL;
+	}
+	
+	@Override
+	public double getDefaultScale() {
+		return DEFAULT_SCALE;
+	}
+	
+	@Override
+	public double getDefaultResolution() {
+		return DEFAULT_RESOLUTION;
 	}
 }

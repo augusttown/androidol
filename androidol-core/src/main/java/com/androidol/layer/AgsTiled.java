@@ -13,7 +13,6 @@ import com.androidol.map.schema.ArcGISOnlineTileMapSchema;
 import com.androidol.map.schema.OSMTileMapSchema;
 import com.androidol.tile.Image;
 import com.androidol.tile.Tile;
-import com.androidol.tile.schema.ArcGISOnlineTileSchema;
 import com.androidol.util.Util;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Envelope;
